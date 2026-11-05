@@ -1,0 +1,3 @@
+- insert:
+    - id: workspace-purge
+      name: 'dsh-workspace-purge'

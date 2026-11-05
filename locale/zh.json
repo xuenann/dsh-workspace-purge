@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "title": "工作区彻底清理",
+    "description": "真正删除左侧的对话与工作区：会话日志与投影缓存移入回收站，工作区目录也可一并删除。"
+  },
+  "action": {
+    "label": "删除数据",
+    "tooltip": "彻底删除对话与工作区"
+  },
+  "panel": {
+    "title": "彻底删除对话与工作区",
+    "description": "被删除的会话日志与投影缓存会移入 Windows 回收站，因此侧栏立即消失，但仍可在回收站恢复；工作区目录只有在你明确勾选后才会被删除。",
+    "loading": "正在加载…",
+    "refresh": "重新加载",
+    "close": "关闭",
+    "workspaces": "工作区",
+    "archived": "已归档的对话",
+    "empty": "没有可删除的内容。",
+    "noSessions": "无对话",
+    "orphans": "未归入任何工作区的对话",
+    "untitled": "未命名",
+    "recycleNote": "被删除的项目会进入回收站。",
+    "selectAll": "全选",
+    "clear": "清空选择",
+    "deleteSelected": "删除所选（{count}）",
+    "deleteSession": "删除",
+    "deleteWorkspace": "删除",
+    "current": "当前对话",
+    "confirmTitle": "确定要彻底删除所选内容吗？",
+    "confirmBody": "以下内容将从侧栏移除并移入回收站：",
+    "confirmSessions": "{count} 个对话",
+    "confirmWorkspaces": "{count} 个工作区",
+    "confirmFolders": "同时还会删除这些工作区目录：",
+    "typeFolderHint": "请输入目录名“{name}”以确认从磁盘删除。",
+    "folderMismatch": "输入的目录名不一致。",
+    "confirm": "彻底删除",
+    "cancel": "取消",
+    "working": "正在删除…",
+    "done": "完成：已删除 {sessions} 个对话、{workspaces} 个工作区。",
+    "partial": "操作完成，但存在未删除的项目。",
+    "errorTitle": "删除失败",
+    "folderOption": "同时删除工作区目录（移入回收站）",
+    "folderUnavailable": "工作区目录已不存在。",
+    "liveWarning": "正在运行 / 等待确认"
+  },
+  "status": {
+    "ok": "已删除",
+    "error": "失败"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "title": "Workspace Purge",
+    "description": "Permanently delete conversations and workspaces: session logs and caches go to the Recycle Bin, and workspace folders can be removed too."
+  },
+  "action": {
+    "label": "Delete data",
+    "tooltip": "Permanently delete conversations and workspaces"
+  },
+  "panel": {
+    "title": "Permanently delete conversations and workspaces",
+    "description": "Deleted session logs and projection caches go to the Windows Recycle Bin, so they leave the sidebar immediately and can still be restored. Workspace folders are only removed when you explicitly tick them.",
+    "loading": "Loading…",
+    "refresh": "Reload",
+    "close": "Close",
+    "workspaces": "Workspaces",
+    "archived": "Archived conversations",
+    "empty": "Nothing to delete.",
+    "noSessions": "No conversations",
+    "orphans": "Conversations outside any workspace",
+    "untitled": "Untitled",
+    "recycleNote": "Removed items go to the Recycle Bin.",
+    "selectAll": "Select all",
+    "clear": "Clear",
+    "deleteSelected": "Delete selected ({count})",
+    "deleteSession": "Delete",
+    "deleteWorkspace": "Delete",
+    "current": "Current conversation",
+    "confirmTitle": "Permanently delete selected items?",
+    "confirmBody": "The following items will be removed from the sidebar and moved to the Recycle Bin:",
+    "confirmSessions": "{count} conversation(s)",
+    "confirmWorkspaces": "{count} workspace(s)",
+    "confirmFolders": "Their workspace folders will be deleted as well:",
+    "typeFolderHint": "Type the folder name “{name}” to confirm deleting it from disk.",
+    "folderMismatch": "The typed folder name does not match.",
+    "confirm": "Delete permanently",
+    "cancel": "Cancel",
+    "working": "Deleting…",
+    "done": "Done: {sessions} conversation(s) and {workspaces} workspace(s) deleted.",
+    "partial": "Finished with problems. Some items were not deleted.",
+    "errorTitle": "Deletion failed",
+    "folderOption": "Also delete the workspace folder from disk (moves to the Recycle Bin)",
+    "folderUnavailable": "The workspace folder is already missing.",
+    "liveWarning": "Running, waiting to be confirmed"
+  },
+  "status": {
+    "ok": "Deleted",
+    "error": "Failed"
+  }
+}

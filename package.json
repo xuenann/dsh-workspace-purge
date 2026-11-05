@@ -1,0 +1,63 @@
+{
+  "name": "dsh-workspace-purge",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Really delete sidebar conversations and workspaces: session logs, projection caches and workspace registrations are removed together, and folders go to the Windows Recycle Bin.",
+  "main": "./index.js",
+  "license": "MIT",
+  "author": {
+    "name": "xuenann"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xuenann/dsh-workspace-purge.git"
+  },
+  "homepage": "https://github.com/xuenann/dsh-workspace-purge#readme",
+  "bugs": {
+    "url": "https://github.com/xuenann/dsh-workspace-purge/issues"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "workspace",
+    "session",
+    "sidebar",
+    "delete",
+    "purge"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "assets/icon-180.png",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "manifestVersion": 1,
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-connection",
+        "@deepseek-ai/dsh-client-ui-sidebar"
+      ]
+    }
+  }
+}

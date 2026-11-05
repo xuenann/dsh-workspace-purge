@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-label="Workspace Purge">
+  <rect x="4" y="4" width="56" height="56" rx="14" fill="#2f6feb"/>
+  <path d="M20 22h24" stroke="#ffffff" stroke-width="3.2" stroke-linecap="round"/>
+  <path d="M26 18h12" stroke="#ffffff" stroke-width="3.2" stroke-linecap="round"/>
+  <path d="M24 22l1.6 22a3 3 0 0 0 3 2.8h6.8a3 3 0 0 0 3-2.8L40 22" fill="none" stroke="#ffffff" stroke-width="3.2" stroke-linejoin="round"/>
+  <path d="M29 28v12M35 28v12" stroke="#ffffff" stroke-width="2.6" stroke-linecap="round" opacity="0.9"/>
+</svg>
