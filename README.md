@@ -80,6 +80,9 @@ node test/host-sim.mjs   # drives the Host half against an in-memory Harness
 node tools/make-icon.mjs # regenerates assets/icon-180.png from icon.svg geometry
 ```
 
+`tools/purge-orphans.mjs` is a one-off maintenance script for the conversations that sit
+in no workspace at all; it is a dry run unless you pass `--apply`.
+
 ## License
 
 MIT
